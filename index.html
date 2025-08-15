@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paws & Preferences</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Intro Overlay -->
+<div id="intro-overlay">
+  <div class="intro-card">
+    <h2>🐾 Welcome to Cat Swipe!</h2>
+    <p class="cat-tip">➡️ <span>Swipe right</span> if you like the cat</p>
+    <p class="cat-tip">⬅️ <span>Swipe left</span> if you want to skip</p>
+    <img src="Image/cute-cat.gif" alt="Cat Guide" class="cat-guide">
+    <button id="got-it-btn">Got it! 🐱</button>
+  </div>
+</div>
+
+<h1>Paws & Preferences</h1>
+<div id="loading-screen" style="display:none;">
+  <div class="loader">
+    🐾
+  </div>
+  <p>Fetching cute cats...</p>
+</div>
+
+<div id="cat-container"></div>
+
+<button id="undo-btn" style="display:none;">⏪ Undo Last Action</button>
+
+<div id="summary">
+  <h2>You liked <span id="like-count"></span> cats</h2>
+  <div id="liked-cats"></div>
+  <button id="swipe-again-btn">🔄 Swipe Again</button>
+</div>
+
+<div id="modal">
+  <img src="" alt="Enlarged Cat">
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
